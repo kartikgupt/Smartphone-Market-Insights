@@ -8,9 +8,9 @@ rev=[]
 user_agent = 'Chrome/117.0.0.0' #CHANGING THE USER AGENT CAN HELP TO REISTABLISH THE CONNECTION TO THE SERVER
 
 headers = {'User-Agent': user_agent}
-for i in range (2,12): # LOOP FOR ITRATING TO THE NEXT PAGES OF THE SITE
+for i in range (1,40): # LOOP FOR ITRATING TO THE NEXT PAGES OF THE SITE
     r = requests.get(
-        "https://www.flipkart.com/mobiles/mi~brand/pr?sid=tyy%2C4io&otracker=nmenu_sub_Electronics_0_Mi&page=" + str(i),
+        "https://www.flipkart.com/search?q=smartphoes&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off&page=" + str(i),
         headers=headers) # GETTING THE HTML FROM THE LINK AND SAVING IN VARIABLE R
 
     html = r.text # SAVING THE HTML TEXT IN A VARIBLE FOR FURTHER PROCESSING
