@@ -1,4 +1,4 @@
-# Flipkart Mobile Competition Analysis
+# Smartphone Market Insights
 
 In the fast-paced world of smartphones, understanding market dynamics is crucial for companies to stay competitive. This project focuses on analyzing mobile phone listings on Flipkart, one of the leading e-commerce platforms in India. By scraping data from Flipkart's smartphone listing section, cleaning the data, and creating a dashboard using Power BI, this project aims to provide insights into the mobile phone market landscape, competitor analysis, and trends.
 
